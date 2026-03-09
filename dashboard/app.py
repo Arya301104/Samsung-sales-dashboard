@@ -8,7 +8,7 @@ st.set_page_config(page_title="Samsung Sales Dashboard", layout="wide")
 st.title("📊 Samsung Global Sales Analytics Dashboard")
 
 # Load dataset
-df = pd.read_csv("../data/samsung_global_sales_dataset.csv")
+df = pd.read_csv("data/samsung_global_sales_dataset.csv")
 
 # ---- SIDEBAR FILTERS ----
 
